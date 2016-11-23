@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta name="description" value="layout navigation bar fullsreen">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>navbar layout</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.6.3/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<!-- <link rel="stylesheet" href="css/bootstrap.min.css"/> -->
+	<link rel="icon" type="image/png"href="img/">
+
+
+</head>
+<body>
+	<nav>
+		<div class="flex_item top_item" id="nav_job">
+			<a href="#job">
+				<h2><span class="title">Our job</span></h2>
+				<img src="img/job.jpg">
+			</a>
+		</div>
+		<div class="flex_item top_item" id="nav_about">
+			<a href="#about">
+				<h2><span class="title">About us</span></h2>
+				<img src="img/about.jpg">
+			</a>
+		</div>
+		<div class="flex_item bottom_item" id="nav_news">
+			<a href="#news">
+				<h2><span class="title">News</span></h2>
+				<img src="img/news.jpg">
+			</a>
+		</div>
+		<div class="flex_item bottom_item" id="nav_career">
+			<a href="#career">
+				<h2><span class="title">Career</span></h2>
+				<img src="img/career.jpg">
+			</a>
+		</div>
+		<div class="flex_item bottom_item" id="nav_blog">
+			<a href="#blog">
+				<h2><span class="title">Blog</span></h2>
+				<img src="img/blog.jpg">
+			</a>
+		</div>
+		<div class="flex_item bottom_item" id="nav_contact">
+			<a href="#contact">
+				<h2><span class="title">Contact</span></h2>
+				<img src="img/contact.jpg">
+			</a>
+		</div>
+	</nav>
+		<section id="job"><h3>this the job section</h3></section>	
+		<section id="about"><h3>this the about section</h3></section>	
+		<section id="news"><h3>this the news section</h3></section>	
+		<section id="career"><h3>this the career section</h3></section>	
+		<section id="blog"><h3>this the blog section</h3></section>	
+		<section id="contact"><h3>this the contact section</h3></section>	
+
+	<script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/back_to_top.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+			$(function(){
+				$('body').backToTop({orientation: 'right', duree: 1000});
+			});
+	</script>
+</body>
+</html>
